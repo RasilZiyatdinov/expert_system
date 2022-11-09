@@ -1,0 +1,66 @@
+.square {
+    background: yellow;
+    border: 2px solid rgb(0, 0, 0);
+    float: left;
+    font-size: 12px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 20px;
+    height: 40px;
+    margin: 0.1rem;
+    color: black;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 40px;
+    cursor: pointer;
+    border-radius: 10%;
+    position: relative;
+  }
+
+  .conc {
+    background: greenyellow;
+    border: 2px solid rgb(0, 0, 0);
+    float: left;
+    font-size: 8px;
+    line-height: 20px;
+    height: 25px;
+    margin: 0.1rem;
+    color: black;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    width: 40px;
+    cursor: pointer;
+    border-radius: 10%;
+    position: relative;
+  }
+
+  .class {
+    /* background: greenyellow;
+    border: 2px solid rgb(0, 0, 0); */
+    float: left;
+    font-size: 14px;
+    line-height: 20px;
+    height: 25px;
+    margin: 0.1rem;
+    
+    /* margin-top: 9px; */
+    color: black;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 10%;
+    position: relative;
+  }
+
+  .board-row:after {
+    clear: both;
+    content: "";
+    
+    display: table;
+  }
+  

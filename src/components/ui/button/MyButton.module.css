@@ -1,0 +1,16 @@
+
+.myBtn{
+    padding: 5px 15px;
+    color: black;
+    font-size: 14px;
+    background: yellow;
+    border: 2px solid black;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    width: 160px;
+}
